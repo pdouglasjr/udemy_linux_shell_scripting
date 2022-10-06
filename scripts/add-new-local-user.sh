@@ -40,7 +40,7 @@ then
 fi
 
 # Set the password
-echo "{$PASSWORD}" | passwd --stdin "${USERNAME}" 1>/dev/null
+echo "{$PASSWORD}" | passwd --stdin "${USERNAME}"
 
 # Check to see if the passwd command succeeded.
 if [[ "${?}" -ne 0 ]]
@@ -50,7 +50,7 @@ then
 fi
 
 # Force password change on first login.
-passwd -e "${USERNAME}" 1>/dev/null
+passwd -e "${USERNAME}"
 
 # Check if the password change enforcement was successful
 if [[ "${?}" -ne 0 ]]
