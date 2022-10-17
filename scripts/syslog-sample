@@ -39318,4 +39318,3 @@ Apr 15 19:59:54 spark sshd[16908]: Failed password for root from 183.3.202.111 p
 Apr 15 19:59:55 spark sshd[16908]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
 Apr 15 19:59:57 spark sshd[16908]: Failed password for root from 183.3.202.111 port 12701 ssh2
 Apr 15 19:59:57 spark sshd[16908]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
-
